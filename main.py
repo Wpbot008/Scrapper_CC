@@ -11,22 +11,22 @@ import random
 
 '''
 
-- Developed by @x0andy
+- Developed by @BN_LUIS
 
 
 '''
 
 from defs import getUrl, getcards, phone
-API_ID =  11676609
-API_HASH = 'HASH'
-SEND_CHAT = '@CHANNEL_LOG'
+API_ID =  25641968
+API_HASH = '0fb93b35ce36dce9dccc1a25466570f8'
+SEND_CHAT = '@luissrc'
 
 client = TelegramClient('session', API_ID, API_HASH)
 ccs = []
 
 chats  = [
-    '@CHANNEL_SCRAPE',
-    '@CHANNEL_SCRAPE',
+    '@luissrc',
+    '@luissrc',
 ]
 
 with open('cards.txt', 'r') as r:
